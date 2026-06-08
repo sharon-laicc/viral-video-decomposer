@@ -1,0 +1,417 @@
+{
+  "source": {
+    "report_id": "xhs-rook-time-spend",
+    "title": "充实地花掉了每天的时间",
+    "creator": "罗OK不想上班",
+    "duration": "02:46",
+    "likes": "2687",
+    "favorites": "216",
+    "comments": "281",
+    "published": "编辑于 05-27 广东",
+    "source_url": "https://www.xiaohongshu.com/discovery/item/6a1535a400000000360332ba?source=webshare&xhsshare=pc_web&xsec_token=AB2-kbV75dIlYeAks8df1lKyY6ltJVp-w05KdcDoEMsSo=&xsec_source=pc_share"
+  },
+  "summary": "把普通时间安排成有质感的一天，用吃饭、洗护、做饭、外食和自拍构成充实生活叙事。",
+  "shots": [
+    {
+      "shot_id": "S001",
+      "timecode": "00:01-00:05",
+      "visual": "早餐碗/馄饨近景，文字从“今日早餐”切入",
+      "action": "用食物开场，建立“好好生活”的日常基调",
+      "narrative_function": "Food Hook",
+      "emotional_function": "充实、烟火气"
+    },
+    {
+      "shot_id": "S002",
+      "timecode": "00:05-00:09",
+      "visual": "咖啡机/水流近景，准备饮品",
+      "action": "早餐饮品准备，补足生活仪式感",
+      "narrative_function": "Routine Detail",
+      "emotional_function": "松弛"
+    },
+    {
+      "shot_id": "S003",
+      "timecode": "00:09-00:13",
+      "visual": "手机竖屏拍摄/记录界面，桌面道具入画",
+      "action": "用手机记录感提示这是一篇库存 vlog",
+      "narrative_function": "Meta Insert",
+      "emotional_function": "真实"
+    },
+    {
+      "shot_id": "S004",
+      "timecode": "00:13-00:17",
+      "visual": "咖啡杯近景，奶/咖啡液体混合",
+      "action": "展示“丑拿铁”的制作/完成",
+      "narrative_function": "Food Insert",
+      "emotional_function": "生活质感"
+    },
+    {
+      "shot_id": "S005",
+      "timecode": "00:17-00:21",
+      "visual": "厨房/收纳区，手拿食材或包装",
+      "action": "早餐后继续整理食材/用品",
+      "narrative_function": "Bridge",
+      "emotional_function": "日常推进"
+    },
+    {
+      "shot_id": "S006",
+      "timecode": "00:21-00:25",
+      "visual": "锅具/碗盘近景，食物加热或处理",
+      "action": "补充早餐/餐食制作过程",
+      "narrative_function": "Cooking Detail",
+      "emotional_function": "忙碌"
+    },
+    {
+      "shot_id": "S007",
+      "timecode": "00:25-00:29",
+      "visual": "餐盘/食物俯拍，食物完成",
+      "action": "早餐段落的结果展示",
+      "narrative_function": "Breakfast Payoff",
+      "emotional_function": "满足"
+    },
+    {
+      "shot_id": "S008",
+      "timecode": "00:29-00:33",
+      "visual": "人物站在室内/镜前，准备出门或整理自己",
+      "action": "从吃饭切到个人状态整理",
+      "narrative_function": "Transition",
+      "emotional_function": "行动感"
+    },
+    {
+      "shot_id": "S009",
+      "timecode": "00:33-00:37",
+      "visual": "手拿护发/洗护产品，公共空间背景",
+      "action": "进入护理/外出场景，产品露出",
+      "narrative_function": "Product Insert",
+      "emotional_function": "精致感"
+    },
+    {
+      "shot_id": "S010",
+      "timecode": "00:37-00:41",
+      "visual": "扶梯/通道/公共交通视角",
+      "action": "空间转场，暗示外出移动",
+      "narrative_function": "Location Transition",
+      "emotional_function": "流动"
+    },
+    {
+      "shot_id": "S011",
+      "timecode": "00:41-00:45",
+      "visual": "车内/交通工具视角，腿部或随身物品入画",
+      "action": "补足外出路上的碎片时间",
+      "narrative_function": "Commute Detail",
+      "emotional_function": "松散真实"
+    },
+    {
+      "shot_id": "S012",
+      "timecode": "00:45-00:49",
+      "visual": "洗手间/洗护空间，台面和白色设备入画",
+      "action": "到达护理空间，准备洗护",
+      "narrative_function": "Care Setup",
+      "emotional_function": "清爽"
+    },
+    {
+      "shot_id": "S013",
+      "timecode": "00:49-00:53",
+      "visual": "洗护区门口/镜面空间，人物移动",
+      "action": "从公共空间进入洗护流程",
+      "narrative_function": "Care Transition",
+      "emotional_function": "干净"
+    },
+    {
+      "shot_id": "S014",
+      "timecode": "00:53-00:57",
+      "visual": "水龙头/洗护设备近景",
+      "action": "正式开始清洗/护理步骤",
+      "narrative_function": "Care Detail",
+      "emotional_function": "细致"
+    },
+    {
+      "shot_id": "S015",
+      "timecode": "00:57-01:01",
+      "visual": "人物在镜前/台盆边，头发护理动作",
+      "action": "展示洗头/护发过程",
+      "narrative_function": "Hair Care",
+      "emotional_function": "精致、松弛"
+    },
+    {
+      "shot_id": "S016",
+      "timecode": "01:01-01:05",
+      "visual": "人物正面，头发湿润或刚护理完",
+      "action": "护理中的自我状态记录",
+      "narrative_function": "Self-care Proof",
+      "emotional_function": "认真对待自己"
+    },
+    {
+      "shot_id": "S017",
+      "timecode": "01:05-01:09",
+      "visual": "门/空间过渡，画面短暂离开人物",
+      "action": "洗护段落之间的转场",
+      "narrative_function": "Transition",
+      "emotional_function": "节奏切换"
+    },
+    {
+      "shot_id": "S018",
+      "timecode": "01:09-01:13",
+      "visual": "人物回到镜前/台盆边，继续整理头发",
+      "action": "护理流程继续，强调“油光水滑”",
+      "narrative_function": "Hair Care Detail",
+      "emotional_function": "精致"
+    },
+    {
+      "shot_id": "S019",
+      "timecode": "01:13-01:17",
+      "visual": "手拿瓶罐/护理用品近景",
+      "action": "补充护发精油/护理产品信息",
+      "narrative_function": "Product Detail",
+      "emotional_function": "种草感"
+    },
+    {
+      "shot_id": "S020",
+      "timecode": "01:17-01:21",
+      "visual": "水流/花洒或洗护近景",
+      "action": "用细节镜头强化护理动作",
+      "narrative_function": "Texture Insert",
+      "emotional_function": "清洁感"
+    },
+    {
+      "shot_id": "S021",
+      "timecode": "01:21-01:25",
+      "visual": "人物整理头发/戴发帽或做造型",
+      "action": "护理收尾，呈现发型状态",
+      "narrative_function": "Care Payoff",
+      "emotional_function": "变漂亮"
+    },
+    {
+      "shot_id": "S022",
+      "timecode": "01:25-01:29",
+      "visual": "人物近景/镜前自拍，头发状态更完整",
+      "action": "展示护理后的外观结果",
+      "narrative_function": "Selfie Payoff",
+      "emotional_function": "自我满足"
+    },
+    {
+      "shot_id": "S023",
+      "timecode": "01:29-01:33",
+      "visual": "厨房场景，人物开始做饭",
+      "action": "从自我护理转到晚餐准备",
+      "narrative_function": "Cooking Setup",
+      "emotional_function": "生活切换"
+    },
+    {
+      "shot_id": "S024",
+      "timecode": "01:33-01:37",
+      "visual": "厨房台面，食材/手部动作",
+      "action": "备菜细节，进入晚餐段",
+      "narrative_function": "Cooking Detail",
+      "emotional_function": "烟火气"
+    },
+    {
+      "shot_id": "S025",
+      "timecode": "01:37-01:41",
+      "visual": "锅/盘/食材近景，手部操作",
+      "action": "烹饪推进，表现“不上班也好好吃饭”",
+      "narrative_function": "Cooking Proof",
+      "emotional_function": "充实"
+    },
+    {
+      "shot_id": "S026",
+      "timecode": "01:41-01:45",
+      "visual": "手拿成品/盘子，人物入画",
+      "action": "食物完成或准备上桌",
+      "narrative_function": "Dinner Payoff",
+      "emotional_function": "满足"
+    },
+    {
+      "shot_id": "S027",
+      "timecode": "01:45-01:49",
+      "visual": "人物坐下/吃东西，桌面入画",
+      "action": "用吃饭动作呼应文案“好好吃饭”",
+      "narrative_function": "Eating Detail",
+      "emotional_function": "照顾自己"
+    },
+    {
+      "shot_id": "S028",
+      "timecode": "01:49-01:53",
+      "visual": "厨房/餐桌远景，空间整体入画",
+      "action": "从近景食物拉回生活空间",
+      "narrative_function": "Home Atmosphere",
+      "emotional_function": "安稳"
+    },
+    {
+      "shot_id": "S029",
+      "timecode": "01:53-01:57",
+      "visual": "餐厅/饭店或公共室内空间，桌椅多人背景",
+      "action": "晚餐外食场景开始",
+      "narrative_function": "Dinner Out Setup",
+      "emotional_function": "热闹"
+    },
+    {
+      "shot_id": "S030",
+      "timecode": "01:57-02:01",
+      "visual": "餐厅/饭店持续镜头，人物或环境变化",
+      "action": "补充外食环境与同行氛围",
+      "narrative_function": "Dinner Out Detail",
+      "emotional_function": "充实"
+    },
+    {
+      "shot_id": "S031",
+      "timecode": "02:01-02:05",
+      "visual": "餐厅/公共空间更多环境镜头",
+      "action": "延展晚餐段，表现一天还有安排",
+      "narrative_function": "Scene Extension",
+      "emotional_function": "热闹"
+    },
+    {
+      "shot_id": "S032",
+      "timecode": "02:05-02:09",
+      "visual": "衣物/床上或包袋静物近景",
+      "action": "外出前后整理物品的过渡",
+      "narrative_function": "Life Admin",
+      "emotional_function": "琐碎真实"
+    },
+    {
+      "shot_id": "S033",
+      "timecode": "02:09-02:13",
+      "visual": "墙面/室内标识或走廊局部",
+      "action": "空间转场，进入下一处地点",
+      "narrative_function": "Transition",
+      "emotional_function": "移动"
+    },
+    {
+      "shot_id": "S034",
+      "timecode": "02:13-02:17",
+      "visual": "室内顶灯/通道空镜",
+      "action": "夜间场所过渡，节奏放慢",
+      "narrative_function": "Atmosphere",
+      "emotional_function": "安静"
+    },
+    {
+      "shot_id": "S035",
+      "timecode": "02:17-02:21",
+      "visual": "公共空间/门店环境，人物和设施入画",
+      "action": "抵达新场景，补充夜间活动",
+      "narrative_function": "Location Proof",
+      "emotional_function": "继续安排"
+    },
+    {
+      "shot_id": "S036",
+      "timecode": "02:21-02:25",
+      "visual": "夜间楼梯/户外或通道，灯光较暗",
+      "action": "晚间移动，进入一天尾声",
+      "narrative_function": "Night Transition",
+      "emotional_function": "收束"
+    },
+    {
+      "shot_id": "S037",
+      "timecode": "02:25-02:29",
+      "visual": "手机/点单页面，菜单或外卖界面",
+      "action": "晚餐/消费决策信息补充",
+      "narrative_function": "Order Insert",
+      "emotional_function": "具体"
+    },
+    {
+      "shot_id": "S038",
+      "timecode": "02:29-02:33",
+      "visual": "车内自拍，人物拿饮品或食物看镜头",
+      "action": "用自拍承接一天的状态",
+      "narrative_function": "Selfie Bridge",
+      "emotional_function": "轻松"
+    },
+    {
+      "shot_id": "S039",
+      "timecode": "02:33-02:37",
+      "visual": "人物正面自拍，头发和造型状态清楚",
+      "action": "展示护理后的外观和精神状态",
+      "narrative_function": "Selfie Payoff",
+      "emotional_function": "漂亮、满足"
+    },
+    {
+      "shot_id": "S040",
+      "timecode": "02:37-02:41",
+      "visual": "晚餐盘/菜品近景",
+      "action": "以食物收束“好好吃饭”的主题",
+      "narrative_function": "Dinner Insert",
+      "emotional_function": "满足"
+    },
+    {
+      "shot_id": "S041",
+      "timecode": "02:41-02:45",
+      "visual": "黑底字幕/片尾画面",
+      "action": "视频结束，情绪淡出",
+      "narrative_function": "Ending Card",
+      "emotional_function": "结束感"
+    }
+  ],
+  "production_shots": [
+    {
+      "id": "F001",
+      "shot_range": "S001-S007",
+      "function": "早餐与咖啡开场",
+      "reuse": "用食物近景和咖啡制作把主题落到“认真花掉时间、认真吃饭”。"
+    },
+    {
+      "id": "F002",
+      "shot_range": "S008-S013",
+      "function": "出门与洗护场景建立",
+      "reuse": "从整理自己到进入公共/洗护空间，说明一天不是空白，而是有安排。"
+    },
+    {
+      "id": "F003",
+      "shot_range": "S014-S022",
+      "function": "头发护理与自我照顾",
+      "reuse": "用水流、镜前、产品、发型结果展现“把自己打理好”的主线。"
+    },
+    {
+      "id": "F004",
+      "shot_range": "S023-S028",
+      "function": "居家做饭与吃饭",
+      "reuse": "从厨房备菜到吃饭，呼应文案“再忙也要好好吃饭”。"
+    },
+    {
+      "id": "F005",
+      "shot_range": "S029-S037",
+      "function": "外食/夜间活动碎片",
+      "reuse": "餐厅、通道、点单页组成夜间生活切片，增加一天的密度。"
+    },
+    {
+      "id": "F006",
+      "shot_range": "S038-S041",
+      "function": "自拍与晚餐收尾",
+      "reuse": "用自拍、发型结果、菜品和片尾把一天收在“充实地过完”。"
+    }
+  ],
+  "ai_blueprint": {
+    "core_formula": "用食物、洗护、做饭、外出、自拍这些低戏剧性的生活切片，证明“不上班/空档期”也可以被安排得充实、有秩序、有自我照顾。",
+    "variables": {
+      "protagonist": [
+        "gap期女生",
+        "自由职业女生",
+        "不想上班的打工人",
+        "独居女生",
+        "周末休息的人"
+      ],
+      "day_theme": [
+        "认真吃饭的一天",
+        "洗头护发的一天",
+        "gap期日常",
+        "把自己照顾好的一天",
+        "不上班但有安排的一天"
+      ],
+      "routine_blocks": [
+        "早餐咖啡",
+        "洗护护理",
+        "做饭吃饭",
+        "外出移动",
+        "夜间外食",
+        "自拍收尾"
+      ],
+      "emotional_tone": [
+        "松弛",
+        "充实",
+        "自洽",
+        "精致但不费力",
+        "一个人也过得很好"
+      ]
+    },
+    "prompt": "请基于“早餐/咖啡 -> 出门/洗护 -> 自我护理 -> 做饭吃饭 -> 夜间活动 -> 自拍收尾”的结构，生成一条新的生活方式 vlog。输出 30-42 个镜头，每个镜头包含：镜号、时长、画面、景别、动作、字幕/旁白、声音、情绪功能。不要复刻原视频具体台词和商品，只复用结构、节奏和生活密度。"
+  }
+}

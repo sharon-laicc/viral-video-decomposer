@@ -1,0 +1,6 @@
+interface:
+  display_name: "Viral Video Decomposer"
+  short_description: "拆解爆款视频并生成生产 brief"
+  default_prompt: "Use $viral-video-decomposer to analyze this viral video and produce a shot table, reusable pattern, and video-generation JSON brief."
+policy:
+  allow_implicit_invocation: true
