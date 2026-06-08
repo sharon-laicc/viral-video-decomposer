@@ -1,0 +1,151 @@
+{
+  "source": {
+    "platform": "小红书",
+    "title": "这是一条有味道的视频",
+    "creator": "咪咪子嘤嘤嘤",
+    "url": "https://www.xiaohongshu.com/discovery/item/5dc578010000000001008c12",
+    "published_or_edited": "2019-11-08",
+    "engagement": {
+      "likes": 5531,
+      "favorites": 513,
+      "comments": 291
+    },
+    "extraction_method": "web visible page + sampled screenshots",
+    "confidence": "medium",
+    "limitations": [
+      "未登录网页端，音频与完整时长不确定",
+      "镜头时间为采样估算"
+    ]
+  },
+  "analysis_summary": "用猫砂盆事故制造低成本宠物情景喜剧，字幕把猫拟人化，最后用反问式包袱完成笑点。",
+  "viral_pattern": {
+    "hook_type": "禁忌笑点 + 宠物真实事故",
+    "emotion_driver": "好笑、嫌弃、围观、反差萌",
+    "audience_promise": "看到一场猫咪厕所事故和主人吐槽",
+    "curiosity_gap": "标题说“有味道”，但先不解释味道来自哪里",
+    "rhythm": "场景建立 -> 异常发现 -> 证据指认 -> 拟人吐槽 -> 反问收尾",
+    "visual_density": "低，但证据明确",
+    "trust_signals": [
+      "真实家庭环境",
+      "固定机位",
+      "猫的自然反应",
+      "评论区共鸣"
+    ],
+    "comment_trigger": "猫为什么不埋猫砂/是不是厕所太小/另一只猫的反应",
+    "conversion_move": "收藏转发给养猫人或评论接梗"
+  },
+  "shots": [
+    {
+      "id": "S001",
+      "time": "00:00-00:01",
+      "visual": "固定机位，猫砂盆、植物、两只猫同框，白猫刚从厕所附近出来",
+      "action": "先建立厕所场景和“刚上完厕所”的事实",
+      "narrative": "Setup",
+      "emotion": "预感不妙"
+    },
+    {
+      "id": "S002",
+      "time": "00:01-00:02",
+      "visual": "白猫贴近猫砂盆出口，灰猫坐在旁边观察",
+      "action": "把“事件发生地”锁定在猫砂盆周围",
+      "narrative": "Evidence Setup",
+      "emotion": "围观感"
+    },
+    {
+      "id": "S003",
+      "time": "00:02-00:03",
+      "visual": "白猫低头靠近地垫/地面，动作很自然",
+      "action": "让观众开始寻找异常点",
+      "narrative": "Curiosity Gap",
+      "emotion": "疑惑"
+    },
+    {
+      "id": "S004",
+      "time": "00:03-00:04",
+      "visual": "字幕/箭头指向地面异物，画面从普通宠物日常变成事故现场",
+      "action": "揭示“有味道”的具体来源",
+      "narrative": "Reveal",
+      "emotion": "突然好笑"
+    },
+    {
+      "id": "S005",
+      "time": "00:04-00:05",
+      "visual": "白猫继续在垫子附近，旁边猫无辜围观",
+      "action": "用猫的无辜反应放大荒诞感",
+      "narrative": "Reaction",
+      "emotion": "荒诞"
+    },
+    {
+      "id": "S006",
+      "time": "00:05-00:06",
+      "visual": "画面停留在两只猫和猫砂盆，事故结果仍可见",
+      "action": "让观众确认不是误会",
+      "narrative": "Proof",
+      "emotion": "尴尬好笑"
+    },
+    {
+      "id": "S007",
+      "time": "00:06-00:07",
+      "visual": "气泡字幕出现“？？？？”式反应",
+      "action": "给猫加上人类心理活动",
+      "narrative": "Personification",
+      "emotion": "拟人喜剧"
+    },
+    {
+      "id": "S008",
+      "time": "00:07-00:08",
+      "visual": "气泡字幕转向反问逻辑：屎不是在这吗",
+      "action": "把错误行为包装成猫自己的“合理解释”",
+      "narrative": "Punchline",
+      "emotion": "反转"
+    },
+    {
+      "id": "S009",
+      "time": "00:08-00:09",
+      "visual": "白猫继续低头行动，灰猫保持旁观",
+      "action": "用无事发生的自然感收尾",
+      "narrative": "Aftertaste",
+      "emotion": "余味"
+    },
+    {
+      "id": "S010",
+      "time": "00:09-00:10",
+      "visual": "固定机位继续停顿，保留评论区讨论空间",
+      "action": "把问题留给观众解释",
+      "narrative": "Comment Trigger",
+      "emotion": "想评论"
+    }
+  ],
+  "production_template": {
+    "duration_target": "8-15s",
+    "structure": [
+      "正常宠物行为",
+      "埋一个异常点",
+      "用字幕指认证据",
+      "拟人化宠物心理",
+      "一句反问式 punchline",
+      "停顿给评论区接梗"
+    ],
+    "caption_rules": [
+      "字幕像主人吐槽，不像旁白解释",
+      "关键笑点用短句、感叹号、问号",
+      "让观众先看见证据，再给字幕补刀"
+    ],
+    "visual_rules": [
+      "固定机位即可",
+      "必须同时看到宠物、事故现场和环境关系",
+      "保留宠物无辜表情或旁观者反应"
+    ]
+  },
+  "batch_variants": [
+    "猫把猫砂埋到空气里",
+    "狗偷吃后把包装藏窝里",
+    "宠物打翻水杯后假装清理现场",
+    "两只宠物一个犯事一个旁观"
+  ],
+  "originality_guardrails": [
+    "可复用事故结构和字幕节奏",
+    "不要复刻原视频具体字幕、画面和猫咪素材",
+    "替换宠物、场景、事故类型和 punchline"
+  ]
+}

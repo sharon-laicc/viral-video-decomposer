@@ -1,50 +1,135 @@
 # Viral Video Decomposer
 
-拆解爆款短视频，把一个“小红书/抖音/B站/TikTok 视频”变成可复用的生产蓝图。
+> Viral videos are not magic. They are reusable structures hiding inside timing, shots, captions, and emotion.
 
-它不是只告诉你“这个视频为什么火”，而是输出可以继续交给视频生成 agent、选题 agent、脚本 agent 使用的结构化资产：镜头级拉片表、爆款机制、变量槽、AI 生产蓝图、批量选题方向和 JSON brief。
+**Viral Video Decomposer** is a Codex / Claude skill that turns a short-video link, transcript, screen recording, or frame set into a polished `Viral Video Lab` HTML report, shot-by-shot breakdown, and AI-ready production brief.
 
-![Key shot contact sheet](docs/assets/contact-sheet.jpg)
+中文一句话：把一个小红书、抖音、B站、TikTok 爆款短视频，拆成可复用的「镜头结构 + 爆款机制 + AI 生产蓝图」。
 
-## What This Does
+It does not just explain why a video works. It produces assets you can reuse:
 
-**Viral Video Decomposer** helps creators, marketers and AI-video builders reverse-engineer viral short videos without copying the original expression.
+```text
+video link / screenshots / transcript
+-> shot evidence
+-> viral mechanism
+-> reusable production blueprint
+-> HTML report + Markdown + JSON brief
+```
 
-It focuses on reusable structure:
+## Showcase
 
-- **Shot-level decomposition** — timecode, visual, action, narrative job and emotional job for each key shot.
-- **Viral mechanism** — hook, curiosity gap, rhythm, trust signals, audience fantasy and comment trigger.
-- **Production blueprint** — the reusable skeleton behind the video.
-- **Variable slots** — what can be swapped to create new original videos.
-- **AI-ready JSON brief** — structured data for downstream video-generation agents.
-- **Polished HTML report** — a `Viral Video Lab` report with A/B visual styles, contact sheet and compact analysis modules.
+The default output is a designed HTML report, not a plain markdown note.
 
-## Example Output
+### Style A · Editorial Lab
 
-This repo includes a sample decomposition generated from a Xiaohongshu lifestyle Vlog:
+Warm paper, serif headline, compact cards, and a working-research feel.
 
-- [HTML report](examples/xhs-rook-time-spend/xhs-rook-time-spend_图文拆解报告.html)
-- [Shot-by-shot markdown](examples/xhs-rook-time-spend/xhs-rook-time-spend_拉片拆解.md)
-- [Video generation brief JSON](examples/xhs-rook-time-spend/xhs-rook-time-spend_video_generation_brief.json)
-- [Contact sheet](examples/xhs-rook-time-spend/xhs-rook-time-spend_contact_sheet.jpg)
+![Viral Video Lab Style A](docs/assets/smelly-cat-style-a.png)
 
-## Report Style
+### Style B · Swiss Blueprint
 
-The default report is a dense professional analysis surface, not a landing page.
+Swiss-inspired grid, Helvetica-style typography, and restrained blue system accents.
 
-It uses:
+![Viral Video Lab Style B](docs/assets/smelly-cat-style-b.png)
 
-- `Viral Video Lab` topbar
-- `Core / Shots / Blueprint / Prompt` navigation
-- A/B visual style switch
-- compact key-shot contact sheet
-- card-style analysis modules
-- consistent `AI 生产蓝图` styling across both themes
+### Analysis Surface
 
-The style contract lives in:
+Every report includes key frames, shot cards, narrative function, emotional function, variable slots, and an AI prompt template.
 
-- [`references/report-style.md`](skill/references/report-style.md)
-- [`references/viral-video-lab.css`](skill/references/viral-video-lab.css)
+![Viral Video Lab Analysis Detail](docs/assets/smelly-cat-analysis-detail.png)
+
+## Demo Case
+
+Included demo:
+
+```text
+这是一条有味道的视频 - 咪咪子嘤嘤嘤
+```
+
+The skill extracts the reusable comedy structure:
+
+```text
+normal pet behavior
+-> visible accident evidence
+-> creator-style caption commentary
+-> pet personification
+-> punchline / comment trigger
+```
+
+Open the generated files:
+
+- [HTML report](examples/xhs-smelly-cat/xhs-smelly-cat_图文拆解报告.html)
+- [Shot-by-shot markdown](examples/xhs-smelly-cat/xhs-smelly-cat_拉片拆解.md)
+- [Video generation brief JSON](examples/xhs-smelly-cat/xhs-smelly-cat_video_generation_brief.json)
+- [Contact sheet](examples/xhs-smelly-cat/xhs-smelly-cat-visual/contact_sheet.jpg)
+
+## Why This Exists
+
+Most "viral video analysis" stops at vague comments:
+
+```text
+hook is strong
+rhythm is good
+content is relatable
+```
+
+That is not enough for production.
+
+This skill treats a viral video as a reusable machine:
+
+- What is the first-frame promise?
+- Where is the curiosity gap?
+- Which shot proves the point?
+- Which caption creates the joke or tension?
+- What emotional job does each shot perform?
+- Which parts are reusable, and which parts must be changed?
+- What should a downstream video-generation agent receive?
+
+The output is designed for creators, marketers, AI video builders, and agents that need executable structure rather than vibes.
+
+## At A Glance
+
+| What you get | Description |
+|---|---|
+| `*_图文拆解报告.html` | Shareable `Viral Video Lab` report with A/B styles |
+| `*_拉片拆解.md` | Human-readable shot table and mechanism notes |
+| `*_video_generation_brief.json` | Structured brief for downstream AI agents |
+| `visual/contact_sheet.jpg` | Compact visual evidence overview |
+| `visual/S001.png...` | Sampled frames used by the analysis |
+
+## What The HTML Report Contains
+
+- Source facts and engagement metrics
+- One-paragraph core thesis
+- Production storyboard compression table
+- Compact key-frame contact sheet
+- Shot-by-shot analysis cards
+- Viral mechanism summary
+- AI production blueprint
+- Reusable variable slots
+- Agent prompt template
+- A/B style toggle
+
+## Quickstart
+
+Paste a video link, transcript, screenshots, recording, or contact sheet:
+
+```text
+帮我拆解这个爆款视频：
+https://www.xiaohongshu.com/...
+```
+
+Ask for the full deliverable:
+
+```text
+生成完整拉片表、爆款机制、AI 生产蓝图、变量槽、JSON brief，并输出 HTML 报告。
+```
+
+Ask for a transformed production plan:
+
+```text
+复用这个视频的结构，但换成我的选题，不要复刻原文案和具体镜头。
+```
 
 ## Installation
 
@@ -109,38 +194,22 @@ After installation, use:
 /viral-video-decomposer:viral-video-decomposer
 ```
 
-## Usage
+## Report Style Contract
 
-Paste a video link, transcript, screenshots, recording, or contact sheet:
+The HTML report follows a locked `Viral Video Lab` design system:
 
-```text
-帮我拆解这个爆款视频：
-https://www.xiaohongshu.com/...
-```
+- `Viral Video Lab` topbar
+- `Core / Shots / Blueprint / Prompt` navigation
+- A/B visual style switch
+- compact key-shot contact sheet
+- card-style analysis modules
+- consistent `AI 生产蓝图` module styling across both themes
+- mobile-friendly compact topbar
 
-For a full report, ask:
+The style contract lives in:
 
-```text
-生成完整拉片表、爆款机制、AI 生产蓝图、变量槽、JSON brief，并输出 HTML 报告。
-```
-
-For remixing without copying:
-
-```text
-复用这个视频的结构，但换成我的选题，不要复刻原文案和具体镜头。
-```
-
-## Output Files
-
-For substantial requests, the skill should produce:
-
-```text
-*_拆解报告.html
-*_拉片拆解.md
-*_video_generation_brief.json
-visual/contact_sheet.jpg
-visual/S001.png ...
-```
+- [`references/report-style.md`](skill/references/report-style.md)
+- [`references/viral-video-lab.css`](skill/references/viral-video-lab.css)
 
 ## Originality Guardrails
 
@@ -177,7 +246,7 @@ Must change:
 ├── plugins/
 │   └── viral-video-decomposer/
 ├── examples/
-│   └── xhs-rook-time-spend/
+│   └── xhs-smelly-cat/
 ├── docs/
 │   └── assets/
 └── .claude-plugin/
