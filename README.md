@@ -1,8 +1,8 @@
-# Viral Video Decomposer
+# Video Structure Analyzer
 
-> Viral videos are not magic. They are reusable structures hiding inside timing, shots, captions, and emotion.
+> Short videos are not magic. They are reusable structures hiding inside timing, shots, captions, and emotion.
 
-**Viral Video Decomposer** is a Codex / Claude skill that turns a short-video link, transcript, screen recording, or frame set into a polished `Viral Video Lab` HTML report, shot-by-shot breakdown, and AI-ready production brief.
+**Video Structure Analyzer** is a Codex / Claude skill that turns a short-video link, transcript, screen recording, or frame set into a polished `Viral Video Lab` HTML report, shot-by-shot breakdown, and AI-ready production brief.
 
 中文一句话：把一个小红书、抖音、B站、TikTok 爆款短视频，拆成可复用的「镜头结构 + 爆款机制 + AI 生产蓝图」。
 
