@@ -109,7 +109,7 @@ Separate reusable patterns from non-reusable expression:
 
 ## Report Shape
 
-When generating an HTML report, also load `report-style.md` and preserve the accepted `Viral Video Lab` A/B report style.
+When generating an HTML report, also load `report-style.md` and preserve the accepted `Viral Video Lab` A/B report style. This is mandatory: the report should look like the accepted `Viral Video Lab` product, not a newly designed page.
 
 Recommended full report content:
 
@@ -136,3 +136,23 @@ Recommended HTML module order:
 6. AI 生产蓝图
 7. 变量槽
 8. Agent Prompt Template
+
+Do not add a visible `JSON Brief（机器可读）` module to the HTML report by default. The JSON brief is delivered as the separate `<slug>_video_generation_brief.json` file. Only show raw JSON in the HTML if the user explicitly asks for it.
+
+For full reports, the `镜头级拆解卡片` section must be frame-backed and detailed. Do not compress a 60-120s video into a few broad sections while labeling it shot-by-shot. If frames are unavailable, mark the analysis as a draft and do not deliver it as the final visual HTML report.
+
+## Required HTML Delivery Bundle
+
+For full HTML reports, deliver this bundle:
+
+```text
+<slug>_图文拆解报告.html
+<slug>_拉片拆解.md
+<slug>_video_generation_brief.json
+<slug>-visual/contact_sheet.jpg
+<slug>-visual/S001.png
+<slug>-visual/S002.png
+...
+```
+
+The HTML must render the contact sheet and shot images with local relative paths. Before final delivery, verify that each referenced image path exists. If no real frame images are available, explicitly state the limitation and do not present placeholder-only panels as a completed visual report.
